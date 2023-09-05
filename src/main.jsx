@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 		errorElement: <Error />,
 		children: [
 			{
-				path: "/",
+				path: "/", // Como fazer para adicionar mais um caminho, ex.: "/home"?
 				element: <Home />,
 			},
 			{
